@@ -1,0 +1,60 @@
+
+<div class="main pt-5">
+
+
+
+  <div class="card-group">
+
+    <div class="card" style="width: 50rem;">
+      <div class="card-body">
+        <figure class="highcharts-figure">
+          <div id="container" style="width: 100%; height: 400px;"></div>
+        </figure>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 12rem; background-color: darkslategrey;">
+      <div class="card-body">
+
+        <input type="number" class="form-control"  [(ngModel)]="currentValue">
+
+        <button (click)="dec()" class="btn btn-info">-</button> <button (click)="add()" class="btn btn-info">+</button>
+
+        <br><br><br>
+
+        <div>
+         <span><b>Profit:</b></span>
+          <p id="percent"><b>91%</b></p>
+          <p id="value">${{Value}}</p>
+        </div>
+
+        <div class="chart-btn"> 
+
+          <button class="btn btn-success" (click)="createInitialData(1)">Higher</button>
+
+          <button class="btn btn-danger" (click)="createInitialData(2)">Lower</button>
+
+        </div>
+
+
+      </div>
+    </div>
+  
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

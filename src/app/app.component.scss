@@ -1,0 +1,37 @@
+.main{
+    margin-left: 1rem;
+}
+
+.btn{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+span{
+    color: white;
+}
+
+#percent{
+    color: green;
+    font-size: 2.5rem;
+}
+
+#value{
+    color: green;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.chart-btn{
+     
+    .btn{
+       padding: 2rem;
+       width: 8rem;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .card-group > .card {
+        flex: none;
+    }
+}
